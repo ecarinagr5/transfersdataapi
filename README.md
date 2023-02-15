@@ -124,7 +124,7 @@ SUCCESS RESPONSE
 CODE STATUS 200
 ```
   res.json({
-    msg: "lead added successfully"
+    msg: "Value has been inserted"
   });
 ```
 
