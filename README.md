@@ -51,7 +51,7 @@ TRANSFER DATA API is an interface to exchange information securely over aplicati
 
 
 
-### POST New Leads
+### POST New Lead
 Post information in API
 URL: https://transfersdata.com/api/leads/
 TYPE: POST
