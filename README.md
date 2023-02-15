@@ -39,39 +39,12 @@
 
 
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
+
 
 
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 TRANSFER DATA API is an interface to exchange information securely over aplications
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -145,6 +118,24 @@ TYPE OF FIELDS:
     "QTN_INSURANCE_COMPANY": STRING  | NULL 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+SUCCESS RESPONSE
+
+CODE STATUS 200
+```
+  res.json({
+    msg: "lead added successfully"
+  });
+```
+
+FAIL RESPONSE
+
+CODE STATUS 400
+```
+  res.json({
+    msg: "error: "This value is required, pls try again.""
+  });
+```
 
 
 ### GET Health Check API
