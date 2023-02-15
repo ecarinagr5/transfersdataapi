@@ -53,9 +53,9 @@ TRANSFER DATA API is an interface to exchange information securely over aplicati
 
 ### POST New Lead
 Post information in API
-URL: https://transfersdata.com/api/leads/
-TYPE: POST
-FORMAT: JSON
+* URL: https://transfersdata.com/api/leads/
+* TYPE: POST
+* FORMAT: JSON
 
 Below Example about structure:
 ```
@@ -141,7 +141,7 @@ CODE STATUS 400
 ### GET Health Check API
 
 Get Health Validation API
-URL: https://transfersdata.com/api/
-TYPE: GET
+* URL: https://transfersdata.com/api/
+* TYPE: GET
 
 
