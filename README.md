@@ -50,7 +50,7 @@ TRANSFER DATA API is an interface to exchange information securely over aplicati
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 For each insert data you must login with JWT
-### POST Login
+### POST USER AUTHENTICATION
 Login API
 * URL: https://transfersdata.com/user/generateToken
 * TYPE: POST
