@@ -49,6 +49,31 @@ TRANSFER DATA API is an interface to exchange information securely over aplicati
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+For each insert data you must login with JWT
+### POST Login
+Login API
+* URL: https://transfersdata.com/user/generateToken
+* TYPE: POST
+* FORMAT: JSON
+
+Below Example about structure:
+```
+{
+    "time": "2023-02-15T10:00:00",
+    "userId": "secret_key"
+}
+
+```
+
+TYPE OF FIELDS:
+
+```
+{
+    "time": date
+    "userId": string
+}
+
+```
 
 
 ### POST New Lead
@@ -56,6 +81,7 @@ Post information in API
 * URL: https://transfersdata.com/api/leads/
 * TYPE: POST
 * FORMAT: JSON
+* HEADER AUTHORIZATION gfg_token_header_key JWT
 
 Below Example about structure:
 ```
